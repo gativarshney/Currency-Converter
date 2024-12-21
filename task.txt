@@ -1,0 +1,12 @@
+~ Real-time Exchange Rates
+~ Add "About" and "Contact" Pages
+~ Reverse Button: Add a button to swap the two selected currencies
+~ Create an aesthetically pleasing interface with modern design principles.
+~ Dark/Light Mode
+~ Trends for Exchange Rates: Display small graphs or charts showing exchange rate trends.
+~ Error Handling for API Failures: Ensure graceful handling and user notifications when the API fails to load.
+~ Notify the user when they input invalid data.
+~Convert Button: Display the conversion result below the input fields when the "Convert" button is clicked.
+~ "View All Rates" Button: Add a button that shows a detailed list of exchange rates for all available currencies.
+~ Responsive Design
+

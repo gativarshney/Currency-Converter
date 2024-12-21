@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/img.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            Currency Converter
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <!-- <img src="https://images.vexels.com/media/users/3/146882/isolated/preview/7525685ed67fa782b7d851273e1264c7-currency-exchange.png?w=360" alt=""> -->
+        <h1 class="title">Currency Converter<h1>
+
+        <div class="card">
+            <form action="/action.php" method="get">
+                <label for="currency">Choose a Currency</label>
+                <select name="currency">
+                    <option value="INR">Indian Rupee</option>
+                    <option value="USD">US Dollar</option>
+                    <option value="EUR">Euro</option>
+                </select>
+                <label for="quantity">Enter Quantity</label>
+                <input type="number" name="quantity" min="1" max="100">
+    
+                <button id="button" class="submit-button" type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="output">
+            <h3>Converted Values in Different Currencies</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Currency</th>
+                    <th>Code</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+        </div>
+        
+    </div>
+
+    <footer>
+        Copyright All Rights Reserved &copy; Gati Varshney
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
